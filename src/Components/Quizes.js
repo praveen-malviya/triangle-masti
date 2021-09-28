@@ -61,8 +61,8 @@ const Quizes = () => {
 
             <form onSubmit={(e)=> checkAnswer(e)}>
                 {quizData.map((data, index) => 
-                <div key={index}>
-                    <p>{data.question}</p>
+                <div className="questions" key={index}>
+                    <p>{index+1}) {data.question}</p>
                     {data.options.map((option) =>
                     <span key={data.options.indexOf(option)}>
                        <label> 
@@ -73,10 +73,10 @@ const Quizes = () => {
                         )}
                 </div>
                 )}
-                <button disabled={buttonStatus}>Check Your Score</button>
+                <button className="submitButton" disabled={buttonStatus}>Check Your Score</button>
             </form>
 
-            <p>{totalScore}</p>
+            <h4>{totalScore}</h4>
         </div>
      );
 }

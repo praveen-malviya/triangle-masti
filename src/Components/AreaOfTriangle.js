@@ -1,11 +1,10 @@
 import { useState } from "react";
+import areaOfTriangle from "../images/areaOfTriangle.png"
 
 const AreaOfTriangle = () => {
 
     const [base, setBase] = useState(0);
     const [height, setHeight] = useState(0);
-    // const [sideThree, setSideThree] = useState(0);
-
     const [triangleArea, setTriangleArea] = useState('');
 
     const calculateArea = (e)=> {
@@ -23,6 +22,8 @@ const AreaOfTriangle = () => {
         <div className="areaOfTriangle boxInput">
             <h2>Calculate Area Of Triangle</h2>
 
+            <img className= "triangleImages" src={areaOfTriangle} alt="" height="200"/>
+
             <form action="">
                     <h3>Enter Base in cm </h3>
                     <input type="number" onChange={(e)=> setBase(e.target.value)} />
@@ -32,6 +33,7 @@ const AreaOfTriangle = () => {
                     <input type="number" onChange={(e)=> setSideThree(e.target.value)}/> */}
                     
                     <button
+                        className="submitButton"
                         onClick={(e)=> calculateArea(e)}
                     >Calculate the Area</button>
 

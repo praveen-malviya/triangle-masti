@@ -1,4 +1,5 @@
 import { useState } from "react";
+import hypotenuseImage from "../images/hypotenuse.png"
 
 const Hypotenuse = () => {
 
@@ -24,8 +25,9 @@ const Hypotenuse = () => {
     return ( 
         <div className="hypotenuse boxInput">
             <h2>Calculate Hypotenuse</h2>
-            <p>Using Pythagoras' theorem</p>
+            {/* <span>(Using Pythagoras' theorem)</span> */}
 
+        <img class = "triangleImages" src={hypotenuseImage} alt="" height="180" />
             <form action="">
                     <h3>Enter Opposite Side (a) in cm</h3>
                     <input type="number" onChange={(e)=> setSideA(e.target.value)} />
@@ -34,6 +36,7 @@ const Hypotenuse = () => {
             
                     
                     <button
+                        className="submitButton"
                         onClick={(e)=> calculateHypotenuse(e)}
                     >Calculate the Hypotenuse</button>
 

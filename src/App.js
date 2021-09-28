@@ -4,6 +4,7 @@ import IsTriangle from "./Components/IsTriangle";
 import Navbar from "./Components/Navbar";
 import Quizes from "./Components/Quizes";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Footer from "./Components/Footer";
 
 
 
@@ -13,6 +14,7 @@ function App() {
     <Router>
     <div className="App">
       <Navbar />
+
       <Switch>
           <Route exact path="/">
             <IsTriangle />
@@ -27,6 +29,7 @@ function App() {
             <Hypotenuse />
           </Route>
       </Switch>
+      <Footer />
     </div>
     </Router>
   );
