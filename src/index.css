@@ -28,7 +28,7 @@ body {
   }
   
   .triangleImages2 {
-    height: 80px;
+    height: 68px;
   }
 }
 
@@ -69,7 +69,6 @@ body {
 .navLinks a{
   text-decoration: none;
   margin-left: 3vw;
-  
   font-weight: bold;
 }
 
@@ -155,7 +154,8 @@ h4 {
 }
 
 .footer div {
-  margin-top:8px; ;
+  margin-top:8px;
+  font-weight: bolder;
 }
 
 .footer div a{
@@ -165,3 +165,6 @@ h4 {
   font-weight: bold;
 }
 
+.footer div a:hover {
+  color: #483d8b;
+}
