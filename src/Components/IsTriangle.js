@@ -30,7 +30,7 @@ const IsTriangle = () => {
     return ( 
         <div className="isTriangle boxInput">
             <h2>Check if the Angles you thought is form a Triangle or not</h2>
-            <img class = "triangleImages2" src={isTriangleImg} alt="" height="100"/>
+            <img class = "triangleImages2" src={isTriangleImg} alt="" height="100px"/>
             <form action="">
                     <h3>Enter Angle One</h3>
                     <input type="number" onChange={(e)=> setAngleOne(e.target.value)} />
