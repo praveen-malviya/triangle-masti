@@ -4,18 +4,33 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Josefin Sans', sans-serif;
+ 
+  color: #414a4c;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 14px;
+    
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 2.4vw;
+    
+  }
+}
+@media only screen and (max-width: 480px) {
+  body {
+    font-size: 3.2vw;
+    
+  }
 }
 
 .App{
   text-align: center;
-  /* background-color: cornsilk; */
-  height: 47vw;
-  /* background-image: url(./images/triangleBackground.jpg); */
-  height: 130%;
-  /* background-position: center; */
-  /* background-size: 100% 100%; */
-background-repeat: cover;
-  /* opacity: .1; */
+  
 }
 
 
@@ -23,17 +38,40 @@ background-repeat: cover;
   display: flex;
   justify-content:space-around;
   align-items: center;
-  /* margin: 5px 30px; */
+  margin-bottom: 35px;
  background-image: linear-gradient(to left, #919487, #a1a295, #b2b1a3, #c3c0b2, #d4cfc1, #dcd5c7, #e5dacd, #ede0d4, #eeddd3, #efdbd2, #efd8d2, #efd6d2);
  border-bottom: 2px ridge green;
-
 }
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    /* display: flex; */
+    flex-direction: column;
+    
+  }
+  .navLinks {
+    margin-bottom: 5px;
+  }
+}
+
+.navbar h2 {
+  color:purple;
+  /* margin-bottom: ; */
+}
+
 
 
 .navLinks a{
   text-decoration: none;
-  margin-left: 30px;
+  margin-left: 3vw;
+  
+  font-weight: bold;
 }
+
+.navLinks a:hover {
+  color: purple;
+}
+
 
 .isTriangle{
  margin: 2px auto;
@@ -74,10 +112,16 @@ background-repeat: cover;
 
 .submitButton:hover {
   background-image: linear-gradient(to left, #919487, #a8a496, #c1b4a7, #d8c5bb, #efd6d2);
+  color: white;
 }
 
 .questions {
   margin: 40px 0px;
+}
+
+h4 {
+  color: greenyellow;
+  font-size: 18px;
 }
 .footer {
   border-top: 2px ridge green;
@@ -99,3 +143,4 @@ background-repeat: cover;
   color:  white;
   font-weight: bold;
 }
+

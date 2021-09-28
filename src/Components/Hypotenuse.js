@@ -27,7 +27,7 @@ const Hypotenuse = () => {
             <h2>Calculate Hypotenuse</h2>
             {/* <span>(Using Pythagoras' theorem)</span> */}
 
-        <img class = "triangleImages" src={hypotenuseImage} alt="" height="180" />
+        <img class = "triangleImages" src={hypotenuseImage} alt="" height="130" />
             <form action="">
                     <h3>Enter Opposite Side (a) in cm</h3>
                     <input type="number" onChange={(e)=> setSideA(e.target.value)} />

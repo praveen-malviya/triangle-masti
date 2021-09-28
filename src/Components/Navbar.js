@@ -3,7 +3,8 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
     return ( 
         <div className="navbar">
-            <h2>Triangle Masti</h2>
+            <h2>Tri@ngleMasti</h2>
+
             <div className="navLinks">
                 <Link to="/">Is Triangle?</Link>
                 <Link to="/quizes"> Quizes </Link>

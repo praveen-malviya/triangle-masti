@@ -1,5 +1,5 @@
 import { useState } from "react";
-import areaOfTriangle from "../images/areaOfTriangle.png"
+import areaOfTriangle from "../images/areaOfTriangle.jpg"
 
 const AreaOfTriangle = () => {
 
@@ -22,7 +22,7 @@ const AreaOfTriangle = () => {
         <div className="areaOfTriangle boxInput">
             <h2>Calculate Area Of Triangle</h2>
 
-            <img className= "triangleImages" src={areaOfTriangle} alt="" height="200"/>
+            <img className= "triangleImages" src={areaOfTriangle} alt="" height="100"/>
 
             <form action="">
                     <h3>Enter Base in cm </h3>
