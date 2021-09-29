@@ -145,11 +145,11 @@ h4 {
 }
 .footer {
   border-top: 2px ridge green;
-  /* position: fixed;  */
+  position: absolute; 
   bottom: 0px; 
   width: 100%; 
   height: 50px;
-  padding: 10px 1px;
+  padding: 10px 0px;
   background-image: linear-gradient(to right, #919487, #a1a295, #b2b1a3, #c3c0b2, #d4cfc1, #dcd5c7, #e5dacd, #ede0d4, #eeddd3, #efdbd2, #efd8d2, #efd6d2);
 }
 
