@@ -145,7 +145,7 @@ h4 {
 }
 .footer {
   border-top: 2px ridge green;
-  position: fixed; 
+  /* position: fixed;  */
   bottom: 0px; 
   width: 100%; 
   height: 50px;
