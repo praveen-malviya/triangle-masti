@@ -11,7 +11,7 @@ const AreaOfTriangle = () => {
 
     if (base > 0 && height > 0) {
       const area = 0.5 * (parseInt(base) * parseInt(height));
-      setTriangleArea(" The area of Trianlge is" + area + "cm<sup>2</sup>");
+      setTriangleArea(" The area of Trianlge is" + area.toFixed(2) + "cm square");
     } else {
       setTriangleArea(" Triangle Base and Height should be Greater than 0");
     }

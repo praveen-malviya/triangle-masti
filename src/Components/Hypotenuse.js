@@ -15,7 +15,7 @@ const Hypotenuse = () => {
         Math.pow(parseInt(sideA), 2) + Math.pow(parseInt(sideB), 2)
       );
 
-      setHypotenuse(" Calculated Hypotenuse is " + calHypotenuse + " cm");
+      setHypotenuse(" Calculated Hypotenuse is " + calHypotenuse.toFixed(2) + " cm");
     } else {
       setHypotenuse("All the side should be Greater than 0");
     }
