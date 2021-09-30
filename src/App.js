@@ -6,16 +6,13 @@ import Quizes from "./Components/Quizes";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Footer from "./Components/Footer";
 
-
-
-
 function App() {
   return (
     <Router>
-    <div className="App">
-      <Navbar />
+      <div className="App">
+        <Navbar />
 
-      <Switch>
+        <Switch>
           <Route exact path="/">
             <IsTriangle />
           </Route>
@@ -28,9 +25,9 @@ function App() {
           <Route path="/hypotensue">
             <Hypotenuse />
           </Route>
-      </Switch>
-      <Footer />
-    </div>
+        </Switch>
+        <Footer />
+      </div>
     </Router>
   );
 }
