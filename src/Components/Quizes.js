@@ -33,6 +33,25 @@ const Quizes = () => {
       ],
       answer: "69.65 Square Meter",
     },
+    {
+      question:
+        "If a triangle has its sides equal to 5cm, 4cm and 6cm, then find its perimeter",
+      options: ["12cm", "15cm", "18cm", "20cm"],
+      answer: "15cm",
+    },
+    {
+      question:
+        "If the height of a triangle is 7cm and base length is equal to 10 cm, then find its area.",
+      options: ["25 Square cm", "30 square cm", "35 square cm", "40 square cm"],
+      answer: "35 square cm",
+    },
+    {
+      question:
+        "In an isosceles right-angled triangle, the perimeter is 20 meters. what will be area?",
+      options: ["15.45 square m", "34.32 square m", "9.32 square m", "17.16 square m"],
+      answer: "17.16 square m",
+    },
+    
   ];
 
   const checkAnswer = (e) => {
