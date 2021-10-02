@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+# Tri@ngle Mast
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Full Responsive React App to have some fun with Triangles. Check you knowledge about triangle take our quiz. Check it out [here](https://triangle-masti.netlify.app/).  
 
-## Available Scripts
+ ### Tech Stack
 
-In the project directory, you can run:
+1. ReactJS
+2. React-router-dom
+3. HTML
+4. CSS
+5. Hosted on Netlify
 
-### `npm start`
+### App Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. Fully Responsive Web App using CSS [Responsive web design](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design).
+2. Navigate throug different section in app, Used [react-router-dom](https://www.npmjs.com/package/react-router-dom) to create the Navigation.
+3. Uses [FormData](https://developer.mozilla.org/en-US/docs/Web/API/FormData) API to get all the submited answer in quiz section.
+4. Uses array of object database for  quiz questions and [Map method](https://reactjs.org/docs/lists-and-keys.html) to show it in view to make it more useable and update the quizes easily.
+5. Uses [useState](https://reactjs.org/docs/hooks-state.html) Hooks to show all the calucaltion and scores in view in realtime. 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### More About app: 
+This app has four sections:
+1. Is Triangle? : Checks wheather user input angles forms a triangle or not.
+1. Quizes : Simple quiz to test user's knowledge about triangles.
+1. Triangle Area : Calculates the area of a triangle, given then height and base of a triangle.
+1. Find Hypotenus : Calculates the hypotenus of a triangle, given the two sides of a triangle.
+ 
